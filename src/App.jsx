@@ -74,8 +74,8 @@ function App() {
                     <div className="flex items-center justify-between">
                         {/* Logo */}
                         <Link to="/" className="text-2xl font-bold text-white hover:text-gold-200 transition-colors flex items-center gap-2">
-                            <span className="text-3xl">🏆</span>
-                            <span>VinaGold AI</span>
+                            <span className="text-3xl"></span>
+                            <span>GoldSA</span>
                         </Link>
 
                         {/* Navigation Links */}
@@ -147,10 +147,10 @@ function App() {
                     <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
                         <div>
                             <h1 className="text-3xl md:text-4xl font-bold mb-2" style={{ fontFamily: 'Poppins, Inter, sans-serif' }}>
-                                <span className="text-gold">GoldSpot</span> <span style={{ color: 'var(--text-primary)' }}>Analytics</span>
+                                <span className="text-gold">GoldSA</span> <span style={{ color: 'var(--text-primary)' }}>Analytics</span>
                             </h1>
                             <p className="text-sm font-medium" style={{ color: 'var(--text-tertiary)' }}>
-                                📊 Cập nhật liên tục giá vàng và bạc • ⚡ Chính xác • 🔒 Đáng tin cậy
+                                Cập nhật liên tục giá vàng và bạc •  Chính xác • Phân tích(chưa làm được:D)
                             </p>
                         </div>
 
@@ -294,10 +294,10 @@ function App() {
                 {/* Footer */}
                 <footer className="text-center text-gray-500 text-sm mt-12 pt-6 border-t border-gray-200">
                     <p className="font-medium text-gray-600">
-                        Được xây dựng với ❤️ bằng React + Vite + Tailwind CSS + Supabase + Recharts
+                        Được xây dựng với  bằng React + Vite + Tailwind CSS + Supabase + Recharts
                     </p>
                     <p className="mt-2 text-navy font-semibold">
-                        © 2024 VinaGold AI - Sản phẩm của Nguyễn Thiện Đức
+                        © 2026 GoldSA - Sản phẩm của Nguyễn Thiện Đức
                     </p>
                 </footer>
             </div>
