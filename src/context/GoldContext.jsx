@@ -34,7 +34,7 @@ export const GoldProvider = ({ children }) => {
                             brand: 'SJC',
                             buy_price: parseFloat(data.results[0].buy_1l) || 0,
                             sell_price: parseFloat(data.results[0].sell_1l) || 0,
-                            region: 'vietnam',
+                            metal_type: 'gold',
                             currency: 'VND',
                             updated_at: new Date().toISOString()
                         })
@@ -61,7 +61,7 @@ export const GoldProvider = ({ children }) => {
                             brand: 'SILVER (W)',
                             buy_price: parseFloat(priceVNDPerTael.toFixed(0)),
                             sell_price: parseFloat((priceVNDPerTael + 50000).toFixed(0)),
-                            region: 'vietnam',
+                            metal_type: 'silver',
                             currency: 'VND',
                             updated_at: new Date().toISOString()
                         })
@@ -86,7 +86,7 @@ export const GoldProvider = ({ children }) => {
                             brand: 'PNJ',
                             buy_price: parseFloat(data.results[0].buy_sjc99_1l || data.results[0].buy || 0),
                             sell_price: parseFloat(data.results[0].sell_sjc99_1l || data.results[0].sell || 0),
-                            region: 'vietnam',
+                            metal_type: 'gold',
                             currency: 'VND',
                             updated_at: new Date().toISOString()
                         })
@@ -108,7 +108,7 @@ export const GoldProvider = ({ children }) => {
                             brand: 'DOJI',
                             buy_price: parseFloat(data.results[0].buy_hcm) || 0,
                             sell_price: parseFloat(data.results[0].sell_hcm) || 0,
-                            region: 'vietnam',
+                            metal_type: 'gold',
                             currency: 'VND',
                             updated_at: new Date().toISOString()
                         })
