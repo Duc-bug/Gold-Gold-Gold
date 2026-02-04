@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "clean": "rd /s /q .vite dist node_modules 2>nul && npm install",
+        "fresh": "taskkill /F /IM node.exe 2>nul && rd /s /q .vite dist 2>nul && npm run dev"
+    }
+}
