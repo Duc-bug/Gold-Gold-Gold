@@ -6,6 +6,7 @@ import GoldPriceChart from './components/GoldPriceChart'
 import PriceCard from './components/PriceCard'
 import StatCard from './components/StatCard'
 import PriceAlertForm from './components/PriceAlertForm'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 // import GeminiAnalysis from './components/GeminiAnalysis'  // TODO: Implement later (avoid rate limit)
 
 function App() {
@@ -301,6 +302,7 @@ function App() {
                     </p>
                 </footer>
             </div>
+            <SpeedInsights />
         </div>
     )
 }
