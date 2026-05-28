@@ -1,4 +1,4 @@
-# VinaGold AI 🏆
+# GoldSA 🏆
 
 Real-time Gold Price Analytics Dashboard with AI-Powered Forecasting
 
