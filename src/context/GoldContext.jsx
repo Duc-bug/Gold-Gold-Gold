@@ -17,7 +17,7 @@ export const GoldProvider = ({ children }) => {
         }
 
         try {
-            const VNAPPMOB_API_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NzE0MTI2ODcsImlhdCI6MTc3MDExNjY4Nywic2NvcGUiOiJnb2xkIiwicGVybWlzc2lvbiI6MH0.3Cpq7L6Fv_lgN1HQ6eBEjZudCOhh40hISrvCkK4ADHg'
+            const VNAPPMOB_API_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODEyNDY2NTAsImlhdCI6MTc3OTk1MDY1MCwic2NvcGUiOiJnb2xkIiwicGVybWlzc2lvbiI6MH0.MtYBzZAQuMhTjl57TajYHZiROgiUildg5UneuIiaJUM'
             const newRecords = [] // Store all new records
 
             // Lấy SJC

@@ -9,7 +9,7 @@ const handleManualUpdate = async () => {
 
     try {
         // API Key của bạn (hết hạn sau 15 ngày - ngày 18/2/2026)
-        const VNAPPMOB_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODEyNDYyNjcsImlhdCI6MTc3OTk1MDI2Nywic2NvcGUiOiJnb2xkIiwicGVybWlzc2lvbiI6MH0.aC76MKCs0Ja9xPrO-qK8NGBtjmU7V0CwvEulbJLWdew"
+        const VNAPPMOB_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3ODEyNDY2NTAsImlhdCI6MTc3OTk1MDY1MCwic2NvcGUiOiJnb2xkIiwicGVybWlzc2lvbiI6MH0.MtYBzZAQuMhTjl57TajYHZiROgiUildg5UneuIiaJUM"
         const insertData = []
 
         // 1. LẤY GIÁ SJC
