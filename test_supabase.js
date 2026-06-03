@@ -10,9 +10,20 @@ let envConfig = {};
 if (fs.existsSync(envPath)) {
     const content = fs.readFileSync(envPath, 'utf-8');
     content.split('\n').forEach(line => {
-        const [key, value] = line.split('=');
-        if (key && value) {
-            envConfig[key.trim()] = value.trim();
+        const trimmedLine = line.trim();
+        if (!trimmedLine || trimmedLine.startsWith('#')) {
+            return;
+        }
+
+        const separatorIndex = trimmedLine.indexOf('=');
+        if (separatorIndex === -1) {
+            return;
+        }
+
+        const key = trimmedLine.slice(0, separatorIndex).trim();
+        const value = trimmedLine.slice(separatorIndex + 1).trim().replace(/^['"]|['"]$/g, '');
+        if (key) {
+            envConfig[key] = value;
         }
     });
 }
